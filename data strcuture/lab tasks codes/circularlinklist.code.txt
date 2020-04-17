@@ -1,0 +1,213 @@
+#include<iostream.h>
+#include<conio.h>
+      class  list
+         {
+         struct node
+         {
+         int info;
+         node *next;
+         }*head;
+          public:
+         list()
+           {
+           head=NULL;
+           }
+          void append(int data)
+            {
+            node *temp,*temp1;
+            if(head==NULL)
+               {
+               temp=new node;
+               temp->info=data;
+               head=temp;
+               temp->next=head;
+               }
+           else
+               {
+            temp=head;
+            while(temp->next!=head)
+               temp=temp->next;
+               temp1=new node;
+               temp1->info=data;
+               temp1->next=head;
+               temp->next=temp1;
+             }
+              }
+          void beg_insert(int data)
+               {
+                node *temp,*temp1;
+                 temp=new node;
+                 temp1=head;
+              if(temp1==NULL)
+                cout<<"\n Firstely create using 1 , list not exist";
+              else
+                 {
+                 while(temp1->next!=head)
+                   temp1=temp1->next;
+
+                 temp->info=data;
+                 temp->next=head;
+                 head=temp;
+                 temp1->next=head;
+                }
+
+                }
+            void in_insert(int pos,int data)
+                  {
+                  node *temp,*t;
+                  int a;
+                  a=pos;
+                  temp=head;
+                  while(pos>1)
+                {
+                temp=temp->next;
+                pos--;
+                }
+               if(temp==NULL)
+                   cout<<"\n\t firstely create using 1 , List not exist ";
+              else  if(a==0)
+                beg_insert(data);
+
+                 else
+                   {
+                   t=new node;
+                   t->info=data;
+                   t->next=temp->next;
+                   temp->next=t;
+                   }
+                }
+            void del( )
+            {
+            node *temp,*t;
+            temp=head;
+            if(temp==NULL)
+              cout<<"\n \tList not Exists ";
+            else if(temp->next==head)
+                {
+                delete temp;
+                head=NULL;
+                }
+            else
+              {
+              t=head->next;
+              while(t->next!=head)
+                 {
+                 t=t->next;
+                 temp=temp->next;
+                 }
+               // t=temp->next->next;
+                temp->next=head;
+                delete t;
+                }
+             }
+
+
+              void beg_del()
+             {
+              node *temp,*temp1;
+              temp=head;
+              if(head==NULL)
+                cout<<"\n\t Link list has no nodes";
+              else
+               {
+                temp1=head;
+                while(temp1->next!=head)
+                   temp1=temp1->next;
+              head=temp->next;
+              temp1->next=head;
+              delete temp;
+               }
+              }
+              void mid_del(int pos)
+              {
+              node *temp,*t;
+                int a=pos;
+                temp=head;
+               while(pos>1)
+                  {
+                  temp=temp->next;
+                   pos--;
+                   }
+             if(a==1 )
+                   beg_del();
+
+             else  if(temp==NULL)
+                 cout<<"\n\t List not Exist ..";
+              else
+               {
+               t=temp->next;
+               temp->next=temp->next->next;
+               delete t;
+               }
+              }
+
+            void show()
+              {
+              node *temp;
+              temp=head;
+              cout<<"\n\t";
+              if(temp==NULL)
+             cout<<"\n \tList not exist";
+              cout<<temp->info;
+              temp=temp->next;
+              while(temp!=head)
+                 {
+                 cout<<" - "<<temp->info;
+                 temp=temp->next;
+                 }
+               }
+             };
+void main()
+{
+            list l;
+            clrscr();
+            int ch,pos;
+            while(1)
+              {
+              cout<<"\n\t\tENter your Choice : ";
+              cout<<"\n 1: To append\n 2: To insert at Begining\n 3: To insert at any position";
+              cout<<"\n 4: To delete\n 5: To del at begining\n 6: To Delete at any position ";
+              cout<<"\n 7: To show\n 8: To exit  ";
+              cin>>ch;
+              if(ch==1)
+              {
+              cout<<"\n\t Enter data to append : ";
+              cin>>ch;
+              l.append(ch);
+              }
+             else if(ch==2)
+               {
+               cout<<"\n\t Enter element to insert at begining : " ;
+               cin>>ch;
+               l.beg_insert(ch);
+               }
+              else if(ch==3)
+            {
+            cout<<"\nEnter element to insert at specific position  :  ";
+            cin>>ch;
+            cout<<"\n Enter position  : ";
+            cin>>pos;
+               l.in_insert(pos,ch);
+               }
+          else if(ch==4)
+             l.del();
+          else if (ch==5)
+            l.beg_del();
+          else if(ch==6)
+          {
+            cout<<"\n Enter position where u have to delete";
+            cin>>pos;
+            l.mid_del(pos);
+              }
+           else if(ch==7)
+               l.show();
+            else if(ch==8)
+              {
+              cout<<"\n Press Enter to Exit";
+              break;
+              }
+             else
+               cout<<"\n\t Wrong Choice   ";
+            }
+    getch();
+}

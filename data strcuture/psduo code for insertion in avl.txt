@@ -1,0 +1,35 @@
+InsertAVL(Node * root, int value )
+
+? This function will be called by passing AVL tree’s root value. Note that it will have
+root value in first function call after it root value we keep on changing according to child
+node values.
+?  int value contains the value of new node to be inserted
+
+
+1.  Do
+       a.  if value is greater than current root value 
+           move root value equal to its right child node (is simple words move to  right child node)  
+      b.  if value is less than current root value
+           move root value equal to its left  child node (is simple words move to  left  child node)  
+      c.  if value is equal to current root value 
+          show error message that we can not insert duplicate nodes in AVL tree and exit
+While (root left or right child not become NULL)
+? In that case we have reached to the leaf node of the tree (the node where new value should be inserted)
+
+2.  Insert node to the left or right of this leaf node value according to the value in this leaf node
+3.  As this has been done in recursive function so we now move up from this root node and will check if any node has become unbalanced if balance it using single or double rotation.
+
+Pseudo Code for Rotation:
+ 
+? Case for performing single rotation (the node where new value should be inserted)
+
+4.  If node has become unbalanced due to insertion of node in outer child of the child node of unbalanced node 
+? Case for performing single rotation 
+
+       a.  Replace unbalanced node with it’s that child node where new node insertion took place.
+       b.  Bring unbalanced node that child node up (in place of unbalanced node ) where new node insertion     took place and make unbalanced node its right or left child appropriately (if left outer node case then
+make unbalanced node as right child otherwise make if right outer node case then make it left child)
+
+5.  If node has become unbalanced due to insertion in inner side of child node of unbalanced node then 
+? Case for performing double rotations 
+      a.  Apply two rotations right first and then left if insertion was in left child of unbalanced node and left first  and then right if insertion was in right child of unbalanced node.

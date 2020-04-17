@@ -1,0 +1,10 @@
+﻿'lect3-oop.exe': Loaded 'C:\Users\HP\Documents\Visual Studio 2010\Projects\lect3-oop\Debug\lect3-oop.exe', Symbols loaded.
+'lect3-oop.exe': Loaded 'C:\Windows\SysWOW64\ntdll.dll', Symbols loaded (source information stripped).
+'lect3-oop.exe': Loaded 'C:\Windows\SysWOW64\kernel32.dll', Symbols loaded (source information stripped).
+'lect3-oop.exe': Loaded 'C:\Windows\SysWOW64\KernelBase.dll', Symbols loaded (source information stripped).
+'lect3-oop.exe': Loaded 'C:\Windows\SysWOW64\msvcp100d.dll', Symbols loaded.
+'lect3-oop.exe': Loaded 'C:\Windows\SysWOW64\msvcr100d.dll', Symbols loaded.
+The thread 'Win32 Thread' (0x530) has exited with code 0 (0x0).
+The thread 'Win32 Thread' (0x355c) has exited with code 0 (0x0).
+The thread 'Win32 Thread' (0x91c) has exited with code 0 (0x0).
+The program '[2888] lect3-oop.exe: Native' has exited with code 0 (0x0).

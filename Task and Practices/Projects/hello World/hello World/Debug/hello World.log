@@ -1,0 +1,19 @@
+﻿Build started 4/5/2016 6:44:10 PM.
+     1>Project "c:\Users\HP\documents\visual studio 2010\Projects\hello World\hello World\hello World.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\hello World.unsuccessfulbuild".
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\hello World.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt "hello World.cpp" /clr:nostdlib 
+         hello World.cpp
+     1>c:\users\hp\documents\visual studio 2010\projects\hello world\hello world\Form1.h(104): error C2653: 'application' : is not a class or namespace name
+     1>c:\users\hp\documents\visual studio 2010\projects\hello world\hello world\Form1.h(104): error C3861: 'exit': identifier not found
+     1>c:\users\hp\documents\visual studio 2010\projects\hello world\hello world\Form1.h(108): error C2039: 'text' : is not a member of 'System::Windows::Forms::Label'
+                 c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\system.windows.forms.dll : see declaration of 'System::Windows::Forms::Label'
+     1>Done Building Project "c:\Users\HP\documents\visual studio 2010\Projects\hello World\hello World\hello World.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.32
