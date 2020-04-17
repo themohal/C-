@@ -1,0 +1,7 @@
+c:\users\farjad\documents\visual studio 2010\Projects\new\new\bin\Debug\@new.exe
+c:\users\farjad\documents\visual studio 2010\Projects\new\new\bin\Debug\@new.pdb
+c:\users\farjad\documents\visual studio 2010\Projects\new\new\obj\x86\Debug\new.Form1.resources
+c:\users\farjad\documents\visual studio 2010\Projects\new\new\obj\x86\Debug\new.Properties.Resources.resources
+c:\users\farjad\documents\visual studio 2010\Projects\new\new\obj\x86\Debug\new.csproj.GenerateResource.Cache
+c:\users\farjad\documents\visual studio 2010\Projects\new\new\obj\x86\Debug\@new.exe
+c:\users\farjad\documents\visual studio 2010\Projects\new\new\obj\x86\Debug\@new.pdb
