@@ -1,0 +1,7 @@
+e:\visual studio 2010\Projects\Calc\Calc\bin\Debug\Calc.exe
+e:\visual studio 2010\Projects\Calc\Calc\bin\Debug\Calc.pdb
+e:\visual studio 2010\Projects\Calc\Calc\obj\x86\Debug\Calc.Form1.resources
+e:\visual studio 2010\Projects\Calc\Calc\obj\x86\Debug\Calc.Properties.Resources.resources
+e:\visual studio 2010\Projects\Calc\Calc\obj\x86\Debug\Calc.csproj.GenerateResource.Cache
+e:\visual studio 2010\Projects\Calc\Calc\obj\x86\Debug\Calc.exe
+e:\visual studio 2010\Projects\Calc\Calc\obj\x86\Debug\Calc.pdb
