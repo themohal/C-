@@ -1,0 +1,25 @@
+﻿Build started 5/8/2016 1:18:38 AM.
+     1>Project "C:\Users\HP\Documents\Visual Studio 2010\Projects\assignmentre\assignmentre\assignmentre.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\assignmentre.unsuccessfulbuild".
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       CoreResGen:
+         No resources are out of date with respect to their source files. Skipping resource generation.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         assignmentre.vcxproj -> C:\Users\HP\Documents\Visual Studio 2010\Projects\assignmentre\Debug\assignmentre.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\assignmentre.unsuccessfulbuild".
+         Touching "Debug\assignmentre.lastbuildstate".
+     1>Done Building Project "C:\Users\HP\Documents\Visual Studio 2010\Projects\assignmentre\assignmentre\assignmentre.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.11

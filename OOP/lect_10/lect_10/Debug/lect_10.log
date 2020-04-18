@@ -1,0 +1,29 @@
+﻿Build started 5/20/2016 3:26:35 PM.
+     1>Project "c:\Users\HP\documents\visual studio 2010\Projects\lect_10\lect_10\lect_10.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\lect_10.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt mathematics.cpp
+         mathematics.cpp
+       ManifestResourceCompile:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\lect_10.exe.embed.manifest.res" Debug\lect_10_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\hp\documents\visual studio 2010\Projects\lect_10\Debug\lect_10.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\lect_10.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\users\hp\documents\visual studio 2010\Projects\lect_10\Debug\lect_10.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\hp\documents\visual studio 2010\Projects\lect_10\Debug\lect_10.lib" /MACHINE:X86 Debug\lect_10.exe.embed.manifest.res
+         Debug\main.obj
+         Debug\mathematics.obj
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\lect_10.exe.embed.manifest" /manifest Debug\lect_10.exe.intermediate.manifest
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\lect_10.exe.embed.manifest.res" Debug\lect_10_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\hp\documents\visual studio 2010\Projects\lect_10\Debug\lect_10.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\lect_10.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\users\hp\documents\visual studio 2010\Projects\lect_10\Debug\lect_10.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\hp\documents\visual studio 2010\Projects\lect_10\Debug\lect_10.lib" /MACHINE:X86 Debug\lect_10.exe.embed.manifest.res
+         Debug\main.obj
+         Debug\mathematics.obj
+         lect_10.vcxproj -> c:\users\hp\documents\visual studio 2010\Projects\lect_10\Debug\lect_10.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\lect_10.unsuccessfulbuild".
+         Touching "Debug\lect_10.lastbuildstate".
+     1>Done Building Project "c:\Users\HP\documents\visual studio 2010\Projects\lect_10\lect_10\lect_10.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.64

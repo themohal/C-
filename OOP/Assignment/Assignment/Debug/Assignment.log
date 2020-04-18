@@ -1,0 +1,31 @@
+﻿Build started 5/5/2016 8:12:10 PM.
+     1>Project "C:\Users\HP\Documents\Visual Studio 2010\Projects\Assignment\Assignment\Assignment.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\Assignment.unsuccessfulbuild".
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         All outputs are up-to-date.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\Assignment.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt assginmentform2.cpp Assignment.cpp /clr:nostdlib 
+         assginmentform2.cpp
+     1>c:\users\hp\documents\visual studio 2010\projects\assignment\assignment\Form1.h(106): error C2039: 'updateToolStripMenuItem_Click' : is not a member of 'Assignment::Form1'
+                 c:\users\hp\documents\visual studio 2010\projects\assignment\assignment\Form1.h(16) : see declaration of 'Assignment::Form1'
+     1>c:\users\hp\documents\visual studio 2010\projects\assignment\assignment\Form1.h(106): error C2065: 'updateToolStripMenuItem_Click' : undeclared identifier
+     1>c:\users\hp\documents\visual studio 2010\projects\assignment\assignment\Form1.h(106): error C3350: 'System::EventHandler' : a delegate constructor expects 2 argument(s)
+     1>c:\users\hp\documents\visual studio 2010\projects\assignment\assignment\Form1.h(144): error C2065: 'assginmentform2' : undeclared identifier
+     1>c:\users\hp\documents\visual studio 2010\projects\assignment\assignment\Form1.h(144): error C2065: 'fr' : undeclared identifier
+     1>c:\users\hp\documents\visual studio 2010\projects\assignment\assignment\Form1.h(144): error C2061: syntax error : identifier 'assginmentform2'
+     1>c:\users\hp\documents\visual studio 2010\projects\assignment\assignment\Form1.h(145): error C2065: 'fr' : undeclared identifier
+     1>c:\users\hp\documents\visual studio 2010\projects\assignment\assignment\Form1.h(145): error C2227: left of '->ShowDialog' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+         Assignment.cpp
+     1>c:\users\hp\documents\visual studio 2010\projects\assignment\assignment\Form1.h(106): error C2039: 'updateToolStripMenuItem_Click' : is not a member of 'Assignment::Form1'
+                 c:\users\hp\documents\visual studio 2010\projects\assignment\assignment\Form1.h(16) : see declaration of 'Assignment::Form1'
+     1>c:\users\hp\documents\visual studio 2010\projects\assignment\assignment\Form1.h(106): error C2065: 'updateToolStripMenuItem_Click' : undeclared identifier
+     1>c:\users\hp\documents\visual studio 2010\projects\assignment\assignment\Form1.h(106): error C3350: 'System::EventHandler' : a delegate constructor expects 2 argument(s)
+         Generating Code...
+     1>Done Building Project "C:\Users\HP\Documents\Visual Studio 2010\Projects\Assignment\Assignment\Assignment.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.47

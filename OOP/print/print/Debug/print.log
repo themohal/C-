@@ -1,0 +1,25 @@
+﻿Build started 6/3/2016 2:01:09 AM.
+     1>Project "c:\Users\HP\documents\visual studio 2010\Projects\print\print\print.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\print.unsuccessfulbuild".
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       CoreResGen:
+         No resources are out of date with respect to their source files. Skipping resource generation.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         print.vcxproj -> c:\users\hp\documents\visual studio 2010\Projects\print\Debug\print.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\print.unsuccessfulbuild".
+         Touching "Debug\print.lastbuildstate".
+     1>Done Building Project "c:\Users\HP\documents\visual studio 2010\Projects\print\print\print.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.07

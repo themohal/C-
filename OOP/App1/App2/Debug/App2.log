@@ -1,0 +1,22 @@
+﻿  pch.cpp
+c:\users\hp\documents\visual studio 2015\projects\app1\app2\pch.cpp(7): warning C4447: 'main' signature found without threading model. Consider using 'int main(Platform::Array<Platform::String^>^ args)'.
+  App.xaml.cpp
+  MainPage.xaml.cpp
+  XamlTypeInfo.Impl.g.cpp
+c:\users\hp\documents\visual studio 2015\projects\app1\app2\app.xaml.cpp(29): error C2653: 'App': is not a class or namespace name
+c:\users\hp\documents\visual studio 2015\projects\app1\app2\app.xaml.cpp(30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\hp\documents\visual studio 2015\projects\app1\app2\app.xaml.cpp(31): error C3861: 'InitializeComponent': identifier not found
+c:\users\hp\documents\visual studio 2015\projects\app1\app2\app.xaml.cpp(32): error C2065: 'Suspending': undeclared identifier
+c:\users\hp\documents\visual studio 2015\projects\app1\app2\app.xaml.cpp(32): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+c:\users\hp\documents\visual studio 2015\projects\app1\app2\app.xaml.cpp(32): error C2653: 'App': is not a class or namespace name
+c:\users\hp\documents\visual studio 2015\projects\app1\app2\app.xaml.cpp(32): error C2065: 'OnSuspending': undeclared identifier
+c:\users\hp\documents\visual studio 2015\projects\app1\app2\app.xaml.cpp(33): warning C4508: 'App': function should return a value; 'void' return type assumed
+c:\users\hp\documents\visual studio 2015\projects\app1\app2\app.xaml.cpp(40): error C2653: 'App': is not a class or namespace name
+c:\users\hp\documents\visual studio 2015\projects\app1\app2\app.xaml.cpp(45): error C3861: 'IsDebuggerPresent': identifier not found
+c:\users\hp\documents\visual studio 2015\projects\app1\app2\app.xaml.cpp(48): error C2143: syntax error: missing ';' before '->'
+c:\users\hp\documents\visual studio 2015\projects\app1\app2\app.xaml.cpp(48): error C2059: syntax error: '->'
+c:\users\hp\documents\visual studio 2015\projects\app1\app2\app.xaml.cpp(62): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+c:\users\hp\documents\visual studio 2015\projects\app1\app2\app.xaml.cpp(62): error C2653: 'App': is not a class or namespace name
+c:\users\hp\documents\visual studio 2015\projects\app1\app2\app.xaml.cpp(62): error C2065: 'OnNavigationFailed': undeclared identifier
+c:\users\hp\documents\visual studio 2015\projects\app1\app2\app.xaml.cpp(104): error C2653: 'App': is not a class or namespace name
+c:\users\hp\documents\visual studio 2015\projects\app1\app2\app.xaml.cpp(117): error C2653: 'App': is not a class or namespace name

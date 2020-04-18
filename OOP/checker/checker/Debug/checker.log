@@ -1,0 +1,14 @@
+﻿Build started 4/15/2016 6:05:19 PM.
+     1>Project "C:\Users\HP\documents\visual studio 2010\Projects\checker\checker\checker.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\checker.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\hp\documents\visual studio 2010\projects\checker\checker\main.cpp(11): error C2864: 'circle::pi' : only static const integral data members can be initialized within a class
+     1>c:\users\hp\documents\visual studio 2010\projects\checker\checker\main.cpp(34): fatal error C1075: end of file found before the left brace '{' at 'c:\users\hp\documents\visual studio 2010\projects\checker\checker\main.cpp(5)' was matched
+     1>Done Building Project "C:\Users\HP\documents\visual studio 2010\Projects\checker\checker\checker.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.32

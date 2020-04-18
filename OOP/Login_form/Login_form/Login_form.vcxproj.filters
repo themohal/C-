@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="DataSources">
+      <UniqueIdentifier>{4d616b4f-15a1-4076-8aa2-64c4cf7f336c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="app.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Form11.datasource">
+      <Filter>DataSources</Filter>
+    </None>
+    <None Include="MySql.Data.MySqlClient.AuthenticationPluginConfigurationElement.datasource">
+      <Filter>DataSources</Filter>
+    </None>
+    <None Include="MySql.Data.MySqlClient.BaseCommandInterceptor.datasource">
+      <Filter>DataSources</Filter>
+    </None>
+    <None Include="MySql.Data.MySqlClient.BaseExceptionInterceptor.datasource">
+      <Filter>DataSources</Filter>
+    </None>
+    <None Include="MySql.Data.MySqlClient.BaseTableCache.datasource">
+      <Filter>DataSources</Filter>
+    </None>
+    <None Include="MySql.Data.MySqlClient.CustomInstaller.datasource">
+      <Filter>DataSources</Filter>
+    </None>
+    <None Include="MySql.Data.MySqlClient.InterceptorConfigurationElement.datasource">
+      <Filter>DataSources</Filter>
+    </None>
+    <None Include="MySql.Data.MySqlClient.MySqlBulkLoader.datasource">
+      <Filter>DataSources</Filter>
+    </None>
+    <None Include="MySql.Data.MySqlClient.MySqlClientFactory.datasource">
+      <Filter>DataSources</Filter>
+    </None>
+    <None Include="MySql.Data.MySqlClient.MySqlClientPermission.datasource">
+      <Filter>DataSources</Filter>
+    </None>
+    <None Include="MySql.Data.MySqlClient.MySqlClientPermissionAttribute.datasource">
+      <Filter>DataSources</Filter>
+    </None>
+    <None Include="MySql.Data.MySqlClient.MySqlCommand.datasource">
+      <Filter>DataSources</Filter>
+    </None>
+    <None Include="MySql.Data.MySqlClient.MySqlCommandBuilder.datasource">
+      <Filter>DataSources</Filter>
+    </None>
+    <None Include="MySql.Data.MySqlClient.MySqlConfiguration.datasource">
+      <Filter>DataSources</Filter>
+    </None>
+    <None Include="MySql.Data.MySqlClient.MySqlConnection.datasource">
+      <Filter>DataSources</Filter>
+    </None>
+    <None Include="MySql.Data.MySqlClient.MySqlConnectionStringBuilder.datasource">
+      <Filter>DataSources</Filter>
+    </None>
+    <None Include="MySql.Data.MySqlClient.MySqlDataAdapter.datasource">
+      <Filter>DataSources</Filter>
+    </None>
+    <None Include="MySql.Data.MySqlClient.MySqlDataReader.datasource">
+      <Filter>DataSources</Filter>
+    </None>
+    <None Include="MySql.Data.MySqlClient.MySqlError.datasource">
+      <Filter>DataSources</Filter>
+    </None>
+    <None Include="MySql.Data.MySqlClient.MySqlException.datasource">
+      <Filter>DataSources</Filter>
+    </None>
+    <None Include="MySql.Data.MySqlClient.MySqlHelper.datasource">
+      <Filter>DataSources</Filter>
+    </None>
+    <None Include="MySql.Data.MySqlClient.MySqlInfoMessageEventArgs.datasource">
+      <Filter>DataSources</Filter>
+    </None>
+    <None Include="MySql.Data.MySqlClient.MySqlInfoMessageEventHandler.datasource">
+      <Filter>DataSources</Filter>
+    </None>
+    <None Include="MySql.Data.MySqlClient.MySqlParameter.datasource">
+      <Filter>DataSources</Filter>
+    </None>
+    <None Include="MySql.Data.MySqlClient.MySqlParameterCollection.datasource">
+      <Filter>DataSources</Filter>
+    </None>
+    <None Include="MySql.Data.MySqlClient.MySqlRowUpdatedEventArgs.datasource">
+      <Filter>DataSources</Filter>
+    </None>
+    <None Include="MySql.Data.MySqlClient.MySqlRowUpdatedEventHandler.datasource">
+      <Filter>DataSources</Filter>
+    </None>
+    <None Include="MySql.Data.MySqlClient.MySqlRowUpdatingEventArgs.datasource">
+      <Filter>DataSources</Filter>
+    </None>
+    <None Include="MySql.Data.MySqlClient.MySqlRowUpdatingEventHandler.datasource">
+      <Filter>DataSources</Filter>
+    </None>
+    <None Include="MySql.Data.MySqlClient.MySqlSchemaCollection.datasource">
+      <Filter>DataSources</Filter>
+    </None>
+    <None Include="MySql.Data.MySqlClient.MySqlSchemaRow.datasource">
+      <Filter>DataSources</Filter>
+    </None>
+    <None Include="MySql.Data.MySqlClient.MySqlScript.datasource">
+      <Filter>DataSources</Filter>
+    </None>
+    <None Include="MySql.Data.MySqlClient.MySqlScriptErrorEventArgs.datasource">
+      <Filter>DataSources</Filter>
+    </None>
+    <None Include="MySql.Data.MySqlClient.MySqlScriptErrorEventHandler.datasource">
+      <Filter>DataSources</Filter>
+    </None>
+    <None Include="MySql.Data.MySqlClient.MySqlScriptEventArgs.datasource">
+      <Filter>DataSources</Filter>
+    </None>
+    <None Include="MySql.Data.MySqlClient.MySqlSecurityPermission.datasource">
+      <Filter>DataSources</Filter>
+    </None>
+    <None Include="MySql.Data.MySqlClient.MySqlStatementExecutedEventHandler.datasource">
+      <Filter>DataSources</Filter>
+    </None>
+    <None Include="MySql.Data.MySqlClient.MySqlTrace.datasource">
+      <Filter>DataSources</Filter>
+    </None>
+    <None Include="MySql.Data.MySqlClient.MySqlTransaction.datasource">
+      <Filter>DataSources</Filter>
+    </None>
+    <None Include="MySql.Data.MySqlClient.ReplicationConfigurationElement.datasource">
+      <Filter>DataSources</Filter>
+    </None>
+    <None Include="MySql.Data.MySqlClient.ReplicationServerConfigurationElement.datasource">
+      <Filter>DataSources</Filter>
+    </None>
+    <None Include="MySql.Data.MySqlClient.ReplicationServerGroupConfigurationElement.datasource">
+      <Filter>DataSources</Filter>
+    </None>
+    <None Include="MySql.Data.MySqlClient.SchemaColumn.datasource">
+      <Filter>DataSources</Filter>
+    </None>
+    <None Include="MySql.Data.MySqlClient.StringUtility.datasource">
+      <Filter>DataSources</Filter>
+    </None>
+    <None Include="MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.datasource">
+      <Filter>DataSources</Filter>
+    </None>
+    <None Include="MySql.Data.MySqlClient.Authentication.MySqlNativePasswordPlugin.datasource">
+      <Filter>DataSources</Filter>
+    </None>
+    <None Include="MySql.Data.MySqlClient.Authentication.SecBuffer.datasource">
+      <Filter>DataSources</Filter>
+    </None>
+    <None Include="MySql.Data.MySqlClient.Authentication.SecHandle.datasource">
+      <Filter>DataSources</Filter>
+    </None>
+    <None Include="MySql.Data.MySqlClient.Authentication.SecPkgContext_Sizes.datasource">
+      <Filter>DataSources</Filter>
+    </None>
+    <None Include="MySql.Data.MySqlClient.Authentication.SECURITY_HANDLE.datasource">
+      <Filter>DataSources</Filter>
+    </None>
+    <None Include="MySql.Data.MySqlClient.Authentication.SECURITY_INTEGER.datasource">
+      <Filter>DataSources</Filter>
+    </None>
+    <None Include="MySql.Data.MySqlClient.Authentication.Sha256AuthenticationPlugin.datasource">
+      <Filter>DataSources</Filter>
+    </None>
+    <None Include="MySql.Data.MySqlClient.Memcached.BinaryClient.datasource">
+      <Filter>DataSources</Filter>
+    </None>
+    <None Include="MySql.Data.MySqlClient.Memcached.Client.datasource">
+      <Filter>DataSources</Filter>
+    </None>
+    <None Include="MySql.Data.MySqlClient.Memcached.MemcachedException.datasource">
+      <Filter>DataSources</Filter>
+    </None>
+    <None Include="MySql.Data.MySqlClient.Memcached.TextClient.datasource">
+      <Filter>DataSources</Filter>
+    </None>
+    <None Include="MySql.Data.MySqlClient.Properties.Resources.datasource">
+      <Filter>DataSources</Filter>
+    </None>
+    <None Include="MySql.Data.MySqlClient.Replication.ReplicationRoundRobinServerGroup.datasource">
+      <Filter>DataSources</Filter>
+    </None>
+    <None Include="MySql.Data.MySqlClient.Replication.ReplicationServer.datasource">
+      <Filter>DataSources</Filter>
+    </None>
+    <None Include="MySql.Data.MySqlClient.Replication.ReplicationServerGroup.datasource">
+      <Filter>DataSources</Filter>
+    </None>
+    <None Include="MySql.Data.Types.MySqlConversionException.datasource">
+      <Filter>DataSources</Filter>
+    </None>
+    <None Include="MySql.Data.Types.MySqlDateTime.datasource">
+      <Filter>DataSources</Filter>
+    </None>
+    <None Include="MySql.Data.Types.MySqlDecimal.datasource">
+      <Filter>DataSources</Filter>
+    </None>
+    <None Include="MySql.Data.Types.MySqlGeometry.datasource">
+      <Filter>DataSources</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Login_form.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AssemblyInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Form1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resX">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

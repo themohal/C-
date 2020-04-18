@@ -1,0 +1,25 @@
+﻿Build started 5/14/2016 6:04:31 AM.
+     1>Project "c:\Users\HP\documents\visual studio 2010\Projects\datagrid\datagrid\datagrid.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\datagrid.unsuccessfulbuild".
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       CoreResGen:
+         No resources are out of date with respect to their source files. Skipping resource generation.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         datagrid.vcxproj -> c:\users\hp\documents\visual studio 2010\Projects\datagrid\Debug\datagrid.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\datagrid.unsuccessfulbuild".
+         Touching "Debug\datagrid.lastbuildstate".
+     1>Done Building Project "c:\Users\HP\documents\visual studio 2010\Projects\datagrid\datagrid\datagrid.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.17

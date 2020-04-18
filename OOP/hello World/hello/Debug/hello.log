@@ -1,0 +1,27 @@
+﻿Build started 4/6/2016 1:18:39 AM.
+     1>Project "C:\Users\HP\Documents\Visual Studio 2010\Projects\hello World\hello\hello.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\Hello.unsuccessfulbuild".
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       CoreResGen:
+         No resources are out of date with respect to their source files. Skipping resource generation.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         hello.vcxproj -> C:\Users\HP\Documents\Visual Studio 2010\Projects\hello World\Debug\Hello.exe
+       CopyFilesToOutputDirectory:
+         Copying file from "Debug\Hello.pdb" to "C:\Users\HP\Documents\Visual Studio 2010\Projects\hello World\Debug\Hello.pdb".
+       FinalizeBuildStatus:
+         Deleting file "Debug\Hello.unsuccessfulbuild".
+         Touching "Debug\Hello.lastbuildstate".
+     1>Done Building Project "C:\Users\HP\Documents\Visual Studio 2010\Projects\hello World\hello\hello.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.08

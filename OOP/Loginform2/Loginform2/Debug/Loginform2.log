@@ -1,0 +1,27 @@
+﻿Build started 4/30/2016 3:38:54 AM.
+     1>Project "C:\Users\HP\Documents\Visual Studio 2010\Projects\Loginform2\Loginform2\Loginform2.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\Loginform2.unsuccessfulbuild".
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         All outputs are up-to-date.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\Loginform2.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\MySQL\MySQL Connector Net 6.6.5\Assemblies\v4.0\MySql.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt Loginform2.cpp /clr:nostdlib 
+         Loginform2.cpp
+     1>c:\users\hp\documents\visual studio 2010\projects\loginform2\loginform2\Form1.h(159): error C2001: newline in constant
+     1>c:\users\hp\documents\visual studio 2010\projects\loginform2\loginform2\Form1.h(181): error C2958: the left parenthesis '(' found at 'c:\users\hp\documents\visual studio 2010\projects\loginform2\loginform2\form1.h(159)' was not matched correctly
+     1>c:\users\hp\documents\visual studio 2010\projects\loginform2\loginform2\Form1.h(99): error C2039: 'textBox2_TextChanged' : is not a member of 'Loginform2::Form1'
+                 c:\users\hp\documents\visual studio 2010\projects\loginform2\loginform2\Form1.h(15) : see declaration of 'Loginform2::Form1'
+     1>c:\users\hp\documents\visual studio 2010\projects\loginform2\loginform2\Form1.h(99): error C2065: 'textBox2_TextChanged' : undeclared identifier
+     1>c:\users\hp\documents\visual studio 2010\projects\loginform2\loginform2\Form1.h(99): error C3350: 'System::EventHandler' : a delegate constructor expects 2 argument(s)
+     1>c:\users\hp\documents\visual studio 2010\projects\loginform2\loginform2\Form1.h(159): error C2143: syntax error : missing ')' before ';'
+     1>c:\users\hp\documents\visual studio 2010\projects\loginform2\loginform2\Form1.h(159): error C2059: syntax error : ')'
+     1>c:\users\hp\documents\visual studio 2010\projects\loginform2\loginform2\Form1.h(164): error C2065: 'myReader' : undeclared identifier
+     1>c:\users\hp\documents\visual studio 2010\projects\loginform2\loginform2\Form1.h(164): error C2227: left of '->Read' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\users\hp\documents\visual studio 2010\projects\loginform2\loginform2\Form1.h(164): fatal error C1903: unable to recover from previous error(s); stopping compilation
+     1>Done Building Project "C:\Users\HP\Documents\Visual Studio 2010\Projects\Loginform2\Loginform2\Loginform2.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.21

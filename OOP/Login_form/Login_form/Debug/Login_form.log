@@ -1,0 +1,46 @@
+﻿Build started 4/23/2016 4:59:08 PM.
+     1>Project "C:\Users\HP\Documents\Visual Studio 2010\Projects\Login_form\Login_form\Login_form.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\Login_form.unsuccessfulbuild".
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         All outputs are up-to-date.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\Login_form.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\MySQL\MySQL Connector Net 6.6.5\Assemblies\v4.0\MySql.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt Login_form.cpp /clr:nostdlib 
+         Login_form.cpp
+     1>c:\users\hp\documents\visual studio 2010\projects\login_form\login_form\Form1.h(93): error C2059: syntax error : 'private'
+     1>c:\users\hp\documents\visual studio 2010\projects\login_form\login_form\Form1.h(93): error C2143: syntax error : missing ';' before ':'
+     1>c:\users\hp\documents\visual studio 2010\projects\login_form\login_form\Form1.h(93): error C2059: syntax error : ':'
+     1>c:\users\hp\documents\visual studio 2010\projects\login_form\login_form\Form1.h(93): warning C4091: '' : ignored on left of 'void' when no variable is declared
+     1>c:\users\hp\documents\visual studio 2010\projects\login_form\login_form\Form1.h(93): error C2143: syntax error : missing ';' before '.'
+     1>c:\users\hp\documents\visual studio 2010\projects\login_form\login_form\Form1.h(93): error C2059: syntax error : '.'
+     1>c:\users\hp\documents\visual studio 2010\projects\login_form\login_form\Form1.h(93): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\hp\documents\visual studio 2010\projects\login_form\login_form\Form1.h(93): error C2447: '{' : missing function header (old-style formal list?)
+     1>c:\users\hp\documents\visual studio 2010\projects\login_form\login_form\Form1.h(96): error C2059: syntax error : 'private'
+     1>c:\users\hp\documents\visual studio 2010\projects\login_form\login_form\Form1.h(98): error C2059: syntax error : 'private'
+     1>c:\users\hp\documents\visual studio 2010\projects\login_form\login_form\Form1.h(98): warning C4091: '' : ignored on left of 'void' when no variable is declared
+     1>c:\users\hp\documents\visual studio 2010\projects\login_form\login_form\Form1.h(98): error C2143: syntax error : missing ';' before '.'
+     1>c:\users\hp\documents\visual studio 2010\projects\login_form\login_form\Form1.h(98): error C2059: syntax error : '.'
+     1>c:\users\hp\documents\visual studio 2010\projects\login_form\login_form\Form1.h(98): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\hp\documents\visual studio 2010\projects\login_form\login_form\Form1.h(98): error C2447: '{' : missing function header (old-style formal list?)
+     1>c:\users\hp\documents\visual studio 2010\projects\login_form\login_form\Form1.h(101): error C2059: syntax error : 'private'
+     1>c:\users\hp\documents\visual studio 2010\projects\login_form\login_form\Form1.h(101): error C2084: function 'void Login_form::Connection_Click(System::Object ^,System::EventArgs ^)' already has a body
+                 c:\users\hp\documents\visual studio 2010\projects\login_form\login_form\Form1.h(96) : see previous definition of 'Connection_Click'
+     1>c:\users\hp\documents\visual studio 2010\projects\login_form\login_form\Form1.h(103): error C2059: syntax error : 'private'
+     1>c:\users\hp\documents\visual studio 2010\projects\login_form\login_form\Form1.h(103): warning C4091: '' : ignored on left of 'void' when no variable is declared
+     1>c:\users\hp\documents\visual studio 2010\projects\login_form\login_form\Form1.h(103): error C2143: syntax error : missing ';' before '.'
+     1>c:\users\hp\documents\visual studio 2010\projects\login_form\login_form\Form1.h(103): error C2059: syntax error : '.'
+     1>c:\users\hp\documents\visual studio 2010\projects\login_form\login_form\Form1.h(103): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\hp\documents\visual studio 2010\projects\login_form\login_form\Form1.h(103): error C2447: '{' : missing function header (old-style formal list?)
+     1>c:\users\hp\documents\visual studio 2010\projects\login_form\login_form\Form1.h(106): error C2059: syntax error : 'private'
+     1>c:\users\hp\documents\visual studio 2010\projects\login_form\login_form\Form1.h(108): error C2059: syntax error : 'private'
+     1>c:\users\hp\documents\visual studio 2010\projects\login_form\login_form\Form1.h(108): warning C4091: '' : ignored on left of 'void' when no variable is declared
+     1>c:\users\hp\documents\visual studio 2010\projects\login_form\login_form\Form1.h(108): error C2143: syntax error : missing ';' before '.'
+     1>c:\users\hp\documents\visual studio 2010\projects\login_form\login_form\Form1.h(108): error C2059: syntax error : '.'
+     1>c:\users\hp\documents\visual studio 2010\projects\login_form\login_form\Form1.h(108): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\hp\documents\visual studio 2010\projects\login_form\login_form\Form1.h(108): error C2447: '{' : missing function header (old-style formal list?)
+     1>Done Building Project "C:\Users\HP\Documents\Visual Studio 2010\Projects\Login_form\Login_form\Login_form.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.40

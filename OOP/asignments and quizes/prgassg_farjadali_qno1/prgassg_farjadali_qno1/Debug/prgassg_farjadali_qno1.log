@@ -1,0 +1,20 @@
+﻿Build started 5/13/2016 2:19:39 PM.
+     1>Project "C:\Users\HP\Documents\Visual Studio 2010\Projects\asignments and quizes\prgassg_farjadali_qno1\prgassg_farjadali_qno1\prgassg_farjadali_qno1.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\prgassg_farjadali_qno1.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+       Manifest:
+         All outputs are up-to-date.
+       FinalizeBuildStatus:
+         Deleting file "Debug\prgassg_farjadali_qno1.unsuccessfulbuild".
+         Touching "Debug\prgassg_farjadali_qno1.lastbuildstate".
+     1>Done Building Project "C:\Users\HP\Documents\Visual Studio 2010\Projects\asignments and quizes\prgassg_farjadali_qno1\prgassg_farjadali_qno1\prgassg_farjadali_qno1.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.05
